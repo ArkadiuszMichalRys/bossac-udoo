@@ -1,5 +1,12 @@
 {
-    "framework-bossac-udoo": [
-
-    ]
+  "tool-bossac-udoo": [
+    {
+      "sha1": "39adb7d8ae28c4e4269e107d60e6ef7969102707",
+      "system": [
+        "linux_x86_64"
+      ],
+      "url": "https://github.com/ArkadiuszMichalRys/bossac-udoo/releases/tool-bossac-udoo-linux_x86_64-0.0.1.tar.gz",
+      "version": "0.0.1"
+    }
+  ]
 }
