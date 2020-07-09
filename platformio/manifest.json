@@ -1,7 +1,7 @@
 {
   "tool-bossac-udoo": [
     {
-      "sha1": "e56dc4a36ffe31a83d490f93a8c83c30d1d73d8a",
+      "sha1": "2926a060fd16f36f2ea9eda97a930c975f1c3829",
       "system": [
         "linux_armv7l"
       ],
