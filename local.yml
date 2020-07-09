@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+  bossac:
+    build:
+      context: .
+      dockerfile: ./compose/Dockerfile
+    image: bossac
+    container_name: bossac
+    user: "1000:1000"
+    volumes:
+      - "./build:/export"
+    environment:
+      - DISPLAY
+    network_mode: "host"
+    command: cp -r /bossac/bin /export

@@ -1,0 +1,11 @@
+# Source dirs in root
+/.git
+/.idea
+/build
+
+# Non source files
+/.dockerignore
+/.gitignore
+/.gitlab-ci.yml
+/local.yml
+/README.md
