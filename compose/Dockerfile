@@ -10,6 +10,7 @@ RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
 USER root
 RUN groupadd --system --gid 1000 bossac && useradd --system --uid 1000 --gid bossac bossac
 
+# libwxgtk2.8-dev libreadline-dev wx-common
 RUN apt update && apt install -y    \
        build-essential              \
        cmake                        \
