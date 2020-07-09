@@ -39,7 +39,6 @@
     "protocols": [
       "sam-ba"
     ],
-    "udoo": true,
     "internal": true,
     "require_upload_port": true,
     "use_1200bps_touch": false,
